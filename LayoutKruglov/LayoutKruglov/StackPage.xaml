@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutKruglov.StackPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                x:Name="lbl"
+                Text="Welcome to Hell!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Button x:Name="btn"
+                    Text="Press here"
+                    BorderColor="#80E340"
+                    BorderWidth="7"
+                    FontSize="Medium"
+                    Clicked="btn_Clicked"
+                    VerticalOptions="FillAndExpand"
+                    >
+                </Button>
+                <Button x:Name="butn"
+                    Text="Clear"
+                    BorderColor="#250CAC"
+                    BorderWidth="7"
+                    FontSize="Medium"
+                    Clicked="butn_Clicked"
+                    VerticalOptions="FillAndExpand"
+                    >
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
