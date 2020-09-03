@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutKruglov.Droid.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Red"
+                   Padding="80"
+                   CornerRadius="90"
+                   Margin="80,0">
+                <Label x:Name="Punane"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <Frame BackgroundColor="Yellow"
+                   Padding="80"
+                   CornerRadius="90"
+                   Margin="80,0">
+                <Label x:Name="Kolane"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <Frame BackgroundColor="Green"
+                   Padding="80"
+                   CornerRadius="90"
+                   Margin="80,0">
+                <Label x:Name="Roheline"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="on" Text="Sisse"/>
+                <Button x:Name="off" Text="Välja"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

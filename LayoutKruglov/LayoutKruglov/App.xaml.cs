@@ -10,7 +10,7 @@ namespace LayoutKruglov
         {
             InitializeComponent();
 
-            MainPage = new StackPage();
+            MainPage = new Valgufoor2();
         }
 
         protected override void OnStart()

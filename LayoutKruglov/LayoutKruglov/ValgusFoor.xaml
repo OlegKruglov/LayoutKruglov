@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutKruglov.Droid.ValgusFoor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="pun" BackgroundColor="Gray"
+                   Padding="40"
+                   CornerRadius="80"
+                   Margin="115,0">
+                <Label x:Name="Punane"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <Frame x:Name="kol" BackgroundColor="Gray"
+                   Padding="40"
+                   CornerRadius="80"
+                   Margin="115,0">
+                <Label x:Name="Kollane"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <Frame x:Name="roh" BackgroundColor="Gray"
+                   Padding="40"
+                   CornerRadius="80"
+                   Margin="115,0">
+                <Label x:Name="Roheline"
+                       FontSize="Large"
+                       />
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="on" 
+                        Text="Sisse"
+                        Clicked="on_Clicked"/>
+                <Button x:Name="off" 
+                        Text="Välja"
+                        Clicked="off_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
